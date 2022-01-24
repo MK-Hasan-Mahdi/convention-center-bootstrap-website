@@ -4,22 +4,8 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-.footer-section{
-    height: 280px;
-    background-color: black;
-}
-
-.carousel-indicators{
-    /* bottom: -20px; */
-}
-
-.carousel-item{
-   
-}
-
-.carousel-caption{
-    
-
+.logo-premier{
+    color: black;
 }
 
 .slider-img{
@@ -34,9 +20,9 @@ body{
 }
 
 .accordion{
-  background-color: #eee;
-  cursor: pointer;
-  padding: 18px;
+  background-color:#0d6efd;
+  padding: 4px;
+  border-radius: 10px;
   width: 100%;
   border: none;
   text-align: left;
@@ -53,10 +39,23 @@ body{
     margin-bottom: 150px;
 }
 
-.client-contact{
-    background-image: url(/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 50%;
+
+/* footer section */
+
+.footer-section{
+    height: 280px;
+    background-color: black;
 }
 
+.rights-para{
+    margin-top: 10px;
+}
+
+.app-store{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0px;
+	margin-top: 40px;
+}
