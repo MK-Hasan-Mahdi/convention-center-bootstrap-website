@@ -28,9 +28,13 @@ body{
 }
 
 .toast{
-    position: absolute; 
+    /* position: absolute;  */
     bottom: 10px; 
     right: 10px;
+}
+
+.fa-gift{
+    color: tomato;
 }
 
 .asking-clients{
