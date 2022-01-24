@@ -33,7 +33,19 @@ body{
     right: 10px;
 }
 
+.accordion{
+  background-color: #eee;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+
 .fa-gift{
+    color: #dff1ff;
     color: tomato;
 }
 
@@ -41,10 +53,10 @@ body{
     margin-bottom: 150px;
 }
 
-@media only screen and (max-width: 321px) {
-    .carousel-caption {
-        h1 {
-            font-size: 1rem;
-        }
-    }
+.client-contact{
+    background-image: url(/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50%;
 }
+
