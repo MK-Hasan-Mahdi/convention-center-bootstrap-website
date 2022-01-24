@@ -5,4 +5,33 @@
     background-color: black;
 }
 
+.carousel-indicators{
+    /* bottom: -20px; */
+}
 
+.carousel-item{
+   
+}
+
+.carousel-caption{
+    
+
+}
+
+.sld-btn{
+    /* bottom: -20px; */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+@media only screen and (max-width: 321px) {
+    .carousel-caption {
+        h1 {
+            font-size: 1rem;
+        }
+    }
+}
